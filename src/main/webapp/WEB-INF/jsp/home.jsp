@@ -36,7 +36,7 @@
 		
 	</div>
 	<button class="accordion">Your Hobbies</button>
-	<div>Your hobbies are - gossiping, talking, stalking, walking and eating..</div>
+	<div class="panel" >Your hobbies are - gossiping, talking, stalking, walking and eating..</div>
 	</div>
 
 
