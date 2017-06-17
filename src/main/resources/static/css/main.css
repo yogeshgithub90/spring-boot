@@ -5,9 +5,148 @@ h1{
 h2{
 	color:#FF0000;
 }
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+    padding: 25px;
+}
 
-.footer{
-	width: 250px;
-	height: 300px;
-	bottom: 0px;
+.footer-row1 {
+	background: url("/footer-row1-bg.jpg") repeat-x scroll left top #f0f0f0;
+	border-bottom: 1px solid #fff;
+	color: #000;
+	font-size: 12px;
+	font-size: 1.2rem;
+	position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
+    padding-top: 30px;
+}
+.footer-row1 li {
+	border-right: 1px solid #000;
+	display: inline;
+	list-style: outside none none;
+}
+.footer-row1 li:last-child {
+	border-right: 0 none;
+}
+.footer-row1-container {
+	margin: 0 auto;
+	padding-top: 22px;
+	width: 996px
+}
+.footer-row1 p {
+	padding-left: 20px;
+	margin-bottom: 0
+}
+.footer-row1 a {
+	color: #000;
+	text-decoration: none;
+	margin: 0 5px;
+	border-right: 1px solid #000;
+	padding-right: 10px;
+}
+.footer-row1 a:last-child {
+	border-right: 0;
+	padding-right: 0;
+}
+.footer-row1 a:hover {
+	text-decoration: underline
+}
+#accordion {
+	font-size: 14px;
+}
+	button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: teal;
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    width:100%;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+.container-login {
+    padding: 16px;
+    width: 100%;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+.loginForm{
+	margin-left: 200px;
+    width: 60%;
 }

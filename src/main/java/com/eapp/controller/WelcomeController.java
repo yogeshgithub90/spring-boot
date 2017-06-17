@@ -24,22 +24,22 @@ public class WelcomeController {
 		return "weather";
 	}
 	
-	@RequestMapping("/who")
+	@RequestMapping("/health")
 	public String who(Map<String, Object> model) {
 		model.put("message", this.message);
-		return "who";
+		return "health";
 	}
 	
-	@RequestMapping("/test1")
+	@RequestMapping("/horoscope")
 	public String test1(Map<String, Object> model) {
 		model.put("message", this.message);
-		return "test1";
+		return "horoscope";
 	}
 	
-	@RequestMapping("/test2")
+	@RequestMapping("/technology")
 	public String test2(Map<String, Object> model) {
 		model.put("message", this.message);
-		return "test2";
+		return "technology";
 	}
 
 }

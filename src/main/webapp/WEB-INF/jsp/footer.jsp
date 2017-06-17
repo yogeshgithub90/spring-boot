@@ -1,16 +1,30 @@
-<footer role="contentinfo" class="footer">
-    <div class="container" style="width: 100%; height:50%;">
-       <div class="row" style="display: -webkit-inline-box;">
-           <div class="col-md-6" style="display: inline;">
-               <p style="font-size: 22px;">© YogApp	Inc. 2017.</p>
-               <span class="footer-divider">|</span>
-               <a href="#" target="_blank">Contact</a>
-           </div>
-           <div class="col-md-6">
-               <a href="#" target="_blank" class="footer-author" title="Created by YogEAPP">
-                   <img src="download.png" alt="YogApp" />
-               </a>
-           </div>
-       </div><!-- .row -->
-    </div><!-- .container -->
-</footer>
+<div class="footer-row1">
+	<div class="container">
+    	<div class="row">
+         	<div class="col-md-6 col-sm-12 col-xs-12">
+  				<ul>
+		          	<li><a href="#">© YogApp	Inc. 2017.</a></li> 
+			    	<li><a href="#">Contact</a></li> 
+			    	<li><a href="#">About Us</a></li> 
+			    	<li>Feedback</li>
+		        </ul>
+			</div>
+		</div>
+	</div>
+</div>
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}
+</script>

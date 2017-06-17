@@ -11,6 +11,11 @@
 	 -->
 <c:url value="/css/main.css" var="jstlCss" />
 <link href="${jstlCss}" rel="stylesheet" />
+<link
+	href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css"
+	rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-inverse">
@@ -21,10 +26,12 @@
 			<div id="navbar" class="collapse navbar-collapse">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="/weather">Weather</a></li>
-					<li class="active"><a href="/who">WHO</a></li>
-					<li class="active"><a href="/test1">Weather</a></li>
-					<li class="active"><a href="/test2">Weather</a></li>
-					<li><a href="#about">About</a></li>
+					<li class="active"><a href="/horoscope">Horoscope</a></li>
+					<li class="active"><a href="/health">Health</a></li>
+					<li class="active"><a href="/technology">Technology</a></li>
+					<li class="active"><a href="#about">About Us.</a></li>
+					<li class="active"><a href="/login">Login here.</a></li>
+					<li class="active"><a href="/register">New user?, register here.</a></li>
 				</ul>
 			</div>
 		</div>

@@ -5,10 +5,11 @@
 <body>
 	<div class="container">
 
-		<div class="starter-template">
-			<h1>Tip of the day..</h1>
-			<h2>Message: ${message}</h2>
-		</div>
+		<div class="starter-template">Welcome to YogEapp, You may find a
+			variety of information here and can upload or contribute towards the
+			information collection for the purpose of reuse. If you find any of
+			the irrelevant information provided here, kindly report me at
+			yogesh.sharma.art@gmail.com</div>
 
 	</div>
 
