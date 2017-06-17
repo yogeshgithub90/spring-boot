@@ -10,8 +10,6 @@ import org.springframework.stereotype.Component;
 import com.eapp.dao.UserDetailsDAO;
 import com.eapp.entity.UserDetails;
 
-import oracle.net.aso.p;
-
 @Component
 public class UserServiceImpl implements UserService{
 	@Autowired
