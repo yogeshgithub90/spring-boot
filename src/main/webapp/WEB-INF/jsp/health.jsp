@@ -3,6 +3,81 @@
 <jsp:include page="header.jsp"></jsp:include>
 </head>
 <body>
+	<div>
+		<ul>
+
+			<li class="col-lg-3 col-md-4 col-sm-6 col-xs-6"><a href="#">
+
+					<figure>
+
+						<img src="/oven1.jpg">
+
+						<figcaption>
+
+							<h3>Oven</h3>
+
+							<p>Whirlpool Microwave Oven</p>
+
+						</figcaption>
+
+					</figure>
+
+			</a></li>
+
+			<li class="col-lg-3 col-md-4 col-sm-6 col-xs-6"><a href="#">
+
+					<figure>
+
+						<img src="/oven2.jpg">
+
+						<figcaption>
+
+							<h3>Oven</h3>
+
+							<p>Microwave Oven</p>
+
+						</figcaption>
+
+					</figure>
+
+			</a></li>
+
+			<li class="col-lg-3 col-md-4 col-sm-6 col-xs-6"><a href="#">
+
+					<figure>
+
+						<img src="/purit1.jpg">
+
+						<figcaption>
+
+							<h3>Water Purifier</h3>
+
+							<p>Purit Water Purifier</p>
+
+						</figcaption>
+
+					</figure>
+
+			</a></li>
+
+			<li class="col-lg-3 col-md-4 col-sm-6 col-xs-6"><a href="#">
+
+					<figure>
+
+						<img src="/purit2.jpg">
+
+						<figcaption>
+
+							<h3>Purifier</h3>
+
+							<p>Whirlpool water purifier</p>
+
+						</figcaption>
+
+					</figure>
+
+			</a></li>
+	</div>
 	<div class="container">
 		<button class="accordion">A Healthy Today</button>
 		<div class="panel">We're counting down to the New Year, when a
