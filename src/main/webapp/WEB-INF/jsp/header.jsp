@@ -16,6 +16,8 @@
 	rel="stylesheet">
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<link href="/js-image-slider.css" rel="stylesheet" type="text/css" />
+<script src="/js-image-slider.js" type="text/javascript"></script>
 </head>
 <body>
 	<nav class="navbar navbar-inverse">
@@ -36,6 +38,7 @@
 			</div>
 		</div>
 	</nav>
+	
 	<script type="text/javascript"
 		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
