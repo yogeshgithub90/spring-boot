@@ -174,3 +174,17 @@ h2 {display:inline;}
     font-size:12px; margin:6px 0;overflow:auto; 
 }
 
+.flip {
+    height: 199px;
+    width: 300px;
+    margin: 0 auto;
+}
+.flip img {
+    width: 300px;
+    height: auto;
+}
+.flip .back {
+    background: #2184cd;
+    color: #fff;
+    text-align: center;
+}
