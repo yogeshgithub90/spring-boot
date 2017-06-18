@@ -19,7 +19,13 @@
 <link href="/js-image-slider.css" rel="stylesheet" type="text/css" />
 <script src="/js-image-slider.js" type="text/javascript"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-Flip/1.1.2/jquery.flip.min.js"></script>
-
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6639532040164804",
+    enable_page_level_ads: true
+  });
+</script>
 </head>
 <body>
 	<nav class="navbar navbar-inverse">
